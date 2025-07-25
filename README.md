@@ -1,8 +1,8 @@
-\## Backtesting Framework for Technical Analysis Trading
+Backtesting Framework for Technical Analysis Trading
 
 
 
-\*\*Outline of project flow\*\*
+Outline of project flow
 
 1\. Fetch historical price data for AAPL, NVDA, GOOG, and META from Yahoo Finance for the past 10 years from period of 2013-01-01 to present date.
 
@@ -10,15 +10,15 @@
 
 3\. Use the indicator parameters to generate buy / sell signals for any given stock. We shall let the technical signal be:
 
-&nbsp;   o = 'nil',
+    o = 'nil',
 
-&nbsp;   1 = 'buy' signal,
+    1 = 'buy' signal,
 
-&nbsp;   -1 = 'sell' signal
+    -1 = 'sell' signal
 
 
 
-&nbsp;   This means that whenever a stock has indication that it is overbought, we sell with signal -1 and vice versa.
+    This means that whenever a stock has indication that it is overbought, we sell with signal -1 and vice versa.
 
 
 
